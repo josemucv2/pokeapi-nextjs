@@ -9,16 +9,16 @@ export default function Home() {
       <AuthLayout>
         <div className="space-y-10">
           <p className="text-center title-general">
-            Gracias por esta oportunidad! Este proyecto utiliza tecnologías
-            como:
+            ¡Gracias por esta oportunidad!. <br /> Este proyecto utiliza
+            tecnologías como:
           </p>
           <ul className="list-disc m-14">
-            <li className='title-general'>Next.js</li>
-            <li className='title-general'>TypeScript</li>
-            <li className='title-general'>Server Side Rendering</li>
-            <li className='title-general'>Tailwind CSS</li>
-            <li className='title-general'>DaisyUI</li>
-            <li className='title-general'>Axios</li>
+            <li className="title-general">Next.js</li>
+            <li className="title-general">TypeScript</li>
+            <li className="title-general">Server Side Rendering</li>
+            <li className="title-general">Tailwind CSS</li>
+            <li className="title-general">DaisyUI</li>
+            <li className="title-general">Axios</li>
           </ul>
           <div
             onClick={() => push("/login")}
